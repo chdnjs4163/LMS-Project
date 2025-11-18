@@ -7,6 +7,7 @@ React(TypeScript)와 Django(DRF)를 기반으로 학생, 교수, 관리자 3가�
 <img width="517" height="268" alt="image" src="https://github.com/user-attachments/assets/3639af57-f48e-40b8-b952-a143ab821878" />
 
 
+
 <아키텍처>
 
 <img width="287" height="680" alt="image" src="https://github.com/user-attachments/assets/4f6aa9fd-3300-4696-bb81-0849567b08fc" />
