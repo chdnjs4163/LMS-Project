@@ -9,7 +9,7 @@ React(TypeScript)와 Django(DRF)를 기반으로 학생, 교수, 관리자 3가�
 # <아키 텍처>
 <img width="287" height="680" alt="image" src="https://github.com/user-attachments/assets/f0e5e0ac-a2f0-41b4-a2e6-7496958d538b" />
 
-✨ 주요 기능
+# ✨ 주요 기능
 
 👨‍🎓 학생 (Student)
 
@@ -43,7 +43,7 @@ React(TypeScript)와 Django(DRF)를 기반으로 학생, 교수, 관리자 3가�
 
 로그 관리: 시스템의 주요 활동(과제 제출, 채점 등) 기록을 실시간으로 조회합니다.
 
-⚙️ 기술 스택 (Tech Stack)
+# ⚙️ 기술 스택 (Tech Stack)
 
 # 🖥️  Frontend
 
