@@ -6,9 +6,8 @@ React(TypeScript)와 Django(DRF)를 기반으로 학생, 교수, 관리자 3가�
 
 <img width="517" height="268" alt="image" src="https://github.com/user-attachments/assets/be93e2f6-834c-4551-a75d-e7c8af0cfd82" />
 
-
-<img width="517" height="268" alt="image" src="https://github.com/user-attachments/assets/07d900c0-ffe7-4181-a6e5-1666c3f4ea56" />
-
+<아키 텍처>
+<img width="287" height="680" alt="image" src="https://github.com/user-attachments/assets/f0e5e0ac-a2f0-41b4-a2e6-7496958d538b" />
 
 ✨ 주요 기능
 
@@ -82,53 +81,53 @@ djangorestframework-camel-case (JSON 형식 변환)
 
 이 프로젝트는 Frontend와 Backend 두 개의 서버를 동시에 실행해야 합니다.
 
-* 1. 백엔드 (Backend)
+# 1. 백엔드 (Backend)
 
-* 1. /backend 폴더로 이동
+* /backend 폴더로 이동
 cd backend
 
-* 2. 파이썬 가상환경 생성 및 활성화
+# 2. 파이썬 가상환경 생성 및 활성화
 * python -m venv .venv
 * source .venv/Scripts/activate  (Windows: .venv\Scripts\activate)
 
-* 3. 필요 라이브러리 설치
+# 3. 필요 라이브러리 설치
 * (가상환경에 미리 requirements.txt를 생성해두는 것이 좋습니다: pip freeze > requirements.txt)
 pip install django djangorestframework mysqlclient djangorestframework-simplejwt django-cors-headers djangorestframework-camel-case pymysql
 
-* 4. 데이터베이스 설정
+# 4. 데이터베이스 설정
 * (MySQL 서버가 실행 중이어야 하며, lms_db 데이터베이스와 lms_user 계정이 미리 생성되어 있어야 함)
 * backend/settings.py 파일의 DATABASES 설정을 본인의 DB 정보로 수정합니다.
 
-* 5. 데이터베이스 마이그레이션
+# 5. 데이터베이스 마이그레이션
 python manage.py makemigrations
 python manage.py migrate
 
-* 6. (필수) 최고 관리자 계정 생성
+# 6. (필수) 최고 관리자 계정 생성
 python manage.py createsuperuser
 
-* 7. 네트워크 모드로 서버 실행 (포트폴리오 시연용)
+# 7. 네트워크 모드로 서버 실행 (포트폴리오 시연용)
 python manage.py runserver 0.0.0.0:8000
 
 
-* 2. 프론트엔드 (Frontend)
+# 2. 프론트엔드 (Frontend)
 
-* 1. /frontend 폴더로 이동 (프로젝트 이름이 assignment-ui인 경우)
+# 1. /frontend 폴더로 이동 (프로젝트 이름이 assignment-ui인 경우)
 cd frontend
-** 2. 의존성 패키지 설치
+# 2. 의존성 패키지 설치
 npm install
 
-* 3. (필수) API 주소 설정
+# 3. (필수) API 주소 설정
 ** src/api/api.ts 파일의 baseURL을 백엔드 IP로 수정합니다.
 ** 예: baseURL: '[http://192.168.24.182:8000/api](http://192.168.24.182:8000/api)'
 
-* 4. package.json 스크립트 수정 (권장)
+# 4. package.json 스크립트 수정 (권장)
 ** package.json 파일의 "scripts" 섹션을 다음과 같이 수정합니다.
 ** "dev": "vite --host --port 8080"
 
-* 5. 네트워크 모드로 서버 실행 (포트폴리오 시연용)
+# 5. 네트워크 모드로 서버 실행 (포트폴리오 시연용)
 npm run dev
 
- *6. 브라우저에서 http://[내-PC-IP]:8080 으로 접속
+ # 6. 브라우저에서 http://[내-PC-IP]:8080 으로 접속
 
 
 💡 향후 개선 사항
