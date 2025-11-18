@@ -1,12 +1,12 @@
-📚 역할 기반 LMS 과제 제출 시스템 (Full-Stack)
+# 📚 역할 기반 LMS 과제 제출 시스템 (Full-Stack)
 
 React(TypeScript)와 Django(DRF)를 기반으로 학생, 교수, 관리자 3가지 역할에 따라 동적 UI와 API 권한이 제어되는 Full-Stack 과제 관리 웹 애플리케이션입니다.
 
-🖥️ 실행 화면 (Screenshot)
+# 🖥️ 실행 화면 (Screenshot)
 
 <img width="517" height="268" alt="image" src="https://github.com/user-attachments/assets/be93e2f6-834c-4551-a75d-e7c8af0cfd82" />
 
-<아키 텍처>
+# <아키 텍처>
 <img width="287" height="680" alt="image" src="https://github.com/user-attachments/assets/f0e5e0ac-a2f0-41b4-a2e6-7496958d538b" />
 
 ✨ 주요 기능
@@ -45,7 +45,7 @@ React(TypeScript)와 Django(DRF)를 기반으로 학생, 교수, 관리자 3가�
 
 ⚙️ 기술 스택 (Tech Stack)
 
-🖥️ Frontend
+# 🖥️  Frontend
 
 React (v18+)
 
@@ -61,7 +61,7 @@ Tailwind CSS
 
 React Context API (전역 인증 상태 관리)
 
-⚙️ Backend
+# ⚙️ Backend
 
 Python 3
 
@@ -77,7 +77,7 @@ django-cors-headers (CORS 보안)
 
 djangorestframework-camel-case (JSON 형식 변환)
 
-🚀 설치 및 실행 방법
+# 🚀 설치 및 실행 방법
 
 이 프로젝트는 Frontend와 Backend 두 개의 서버를 동시에 실행해야 합니다.
 
